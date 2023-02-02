@@ -1,0 +1,20 @@
+﻿ Kolorowy graf 1 
+Napisać program dokonujący kolorowania grafu nieskierowanego przy użyciu algorytmu typu „sprawdź wszystkie możliwości”. 
+Graf jest zapisany w pliku wejściowym w postaci rozdzielonych przecinkami dwójek. 
+Dwójki liczb otoczone są nawiasami, zaś liczby oznaczają wierzchołki definiujące krawędź. Przykładowy plik wejściowy: 
+(1, 2), (4, 3), (4, 2), (1, 5) 
+
+Wynikiem działania programu jest plik z wierzchołkami grafu podzielonymi na grupy w ten sposób, by każda grupa zawierała wierzchołki o tym samym kolorze.
+Program uruchamiany jest z linii poleceń z wykorzystaniem następujących przełączników: 
+-g plik wejściowy z grafem 
+-k plik wyjściowy z rozwiązaniem  
+
+
+
+
+for (int i = 0; i < graf.size(); i++) {
+		if (graf[i].empty()) {
+			continue;
+		}
+		std::cout << "wierzcholek " << i << " jest koloru " << kolory[i] << std::endl;
+	}

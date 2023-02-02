@@ -1,0 +1,5 @@
+wierzcholek 1 jest koloru 2
+wierzcholek 2 jest koloru 1
+wierzcholek 3 jest koloru 1
+wierzcholek 4 jest koloru 2
+wierzcholek 5 jest koloru 1
