@@ -1,0 +1,1 @@
+# KolorowanieGrafu1
